@@ -1,0 +1,142 @@
+{
+  "threshold": 0.4049999999999999,
+  "recall_floor": 0.75,
+  "feature_names": [
+    "num__num_dependents",
+    "num__months_in_current_job",
+    "num__annual_income_gbp",
+    "num__monthly_expenses_gbp",
+    "num__years_at_current_address",
+    "num__existing_debt_gbp",
+    "num__num_existing_credit_lines",
+    "num__num_late_payments_24m",
+    "num__savings_balance_gbp",
+    "num__loan_amount_gbp",
+    "num__loan_term_months",
+    "num__has_savings_account",
+    "num__has_guarantor",
+    "num__previous_application_declined",
+    "num__debt_to_income_ratio",
+    "num__loan_to_income_ratio",
+    "num__expense_to_income_ratio",
+    "num__affordability_ratio",
+    "num__net_monthly_disposable_gbp",
+    "num__has_no_checking_account",
+    "num__is_thin_credit_file",
+    "num__missingindicator_years_at_current_address",
+    "num__missingindicator_savings_balance_gbp",
+    "ord__residency_status",
+    "ord__credit_history",
+    "oos__clean_checking_tier",
+    "nom__region_London",
+    "nom__region_Midlands",
+    "nom__region_North East",
+    "nom__region_North West",
+    "nom__region_Northern Ireland",
+    "nom__region_Scotland",
+    "nom__region_South East",
+    "nom__region_South West",
+    "nom__region_Wales",
+    "nom__region_Yorkshire",
+    "nom__employment_status_Fixed-term",
+    "nom__employment_status_Permanent",
+    "nom__employment_status_Retired",
+    "nom__employment_status_Self-employed",
+    "nom__employment_status_Unemployed",
+    "nom__employment_status_Zero-hours",
+    "nom__housing_status_Living with family",
+    "nom__housing_status_Mortgage",
+    "nom__housing_status_Owner",
+    "nom__housing_status_Renting",
+    "nom__loan_purpose_Business",
+    "nom__loan_purpose_Car",
+    "nom__loan_purpose_Debt consolidation",
+    "nom__loan_purpose_Education",
+    "nom__loan_purpose_Holiday",
+    "nom__loan_purpose_Home improvement",
+    "nom__loan_purpose_Medical",
+    "nom__loan_purpose_Other",
+    "nom__application_channel_Branch",
+    "nom__application_channel_Broker",
+    "nom__application_channel_Online",
+    "nom__application_channel_Phone"
+  ],
+  "fairness_audit": {
+    "sex": [
+      {
+        "group": "Female",
+        "count": 586,
+        "actual_default_pct": 27.8,
+        "approval_rate_pct": 60.2,
+        "wrongful_decline_fpr_pct": 27.2
+      },
+      {
+        "group": "Male",
+        "count": 614,
+        "actual_default_pct": 23.5,
+        "approval_rate_pct": 68.2,
+        "wrongful_decline_fpr_pct": 20.0
+      }
+    ],
+    "marital_status": [
+      {
+        "group": "Divorced",
+        "count": 180,
+        "actual_default_pct": 25.0,
+        "approval_rate_pct": 70.6,
+        "wrongful_decline_fpr_pct": 17.0
+      },
+      {
+        "group": "Married",
+        "count": 655,
+        "actual_default_pct": 25.2,
+        "approval_rate_pct": 64.3,
+        "wrongful_decline_fpr_pct": 23.9
+      },
+      {
+        "group": "Single",
+        "count": 339,
+        "actual_default_pct": 26.0,
+        "approval_rate_pct": 60.8,
+        "wrongful_decline_fpr_pct": 25.1
+      },
+      {
+        "group": "Widowed",
+        "count": 26,
+        "actual_default_pct": 34.6,
+        "approval_rate_pct": 69.2,
+        "wrongful_decline_fpr_pct": 35.3
+      }
+    ],
+    "age_band": [
+      {
+        "group": "18-25",
+        "count": 15,
+        "actual_default_pct": 40.0,
+        "approval_rate_pct": 40.0,
+        "wrongful_decline_fpr_pct": 55.6
+      },
+      {
+        "group": "26-35",
+        "count": 362,
+        "actual_default_pct": 30.7,
+        "approval_rate_pct": 55.0,
+        "wrongful_decline_fpr_pct": 28.7
+      },
+      {
+        "group": "36-50",
+        "count": 604,
+        "actual_default_pct": 25.3,
+        "approval_rate_pct": 65.6,
+        "wrongful_decline_fpr_pct": 23.9
+      },
+      {
+        "group": "51+",
+        "count": 219,
+        "actual_default_pct": 16.9,
+        "approval_rate_pct": 78.1,
+        "wrongful_decline_fpr_pct": 13.2
+      }
+    ]
+  }
+}
