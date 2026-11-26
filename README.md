@@ -1,4 +1,4 @@
-# Meridian Credit — Explainable Default Risk Prototype (COM300)
+# Meridian Credit - Explainable Default Risk Prototype (COM300)
 
 Machine learning credit-risk prototype and dual-audience explanation system built for Meridian Credit under UK FCA and EU AI Act (Annex III) requirements.
 
